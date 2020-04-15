@@ -1,0 +1,150 @@
+html{
+    font-family: 'Benguiat';
+}
+
+
+#video1{
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1000;
+    overflow: hidden;
+    }
+
+body{
+    margin: 0px;
+}
+
+h1{
+    position: center;
+    margin-top: 3vh;
+    margin-block-start: 0.00em;
+    margin-block-end: 0.00em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+hr{
+    width: 75%;
+}
+.logo-box{
+    height: 17vh;
+    width: 100%;
+    background-color: black;
+}
+
+.logo-image{
+    margin-left: 35%;
+    width: 27%;
+    margin-top: 1vh;
+    height: 15vh;
+}
+
+#title{
+    color: white;
+    margin-left: 18%;
+    font-size: 56px;
+    margin-top: 2vh;
+}
+
+#container{
+    grid-template-columns: 35% 30% 35%;
+    grid-template-rows: 100%;
+    display: grid;
+    margin-left: 5%;
+    margin-right: 2%;
+    margin-top: 3vh;
+}
+
+.vivos{
+    text-align: center;
+    width: 89%;
+    height: 52vh;
+    background-color: white;
+    border-radius: 10%;
+}
+
+#buttonlogo{
+    width: 70%;
+    height: 26vh;
+    margin-left: 9%;
+    margin-top: 0vh;
+    text-decoration: none; 
+}
+
+
+#buttonlogo:active {
+        position:relative;
+        top:1px;
+    }
+
+#buttonlogo:focus{
+        outline: none;
+    }
+    
+.muertos{
+    text-align: center;
+    width: 89%;
+    height: 52vh;
+    background-color: white;
+    border-radius: 10%;
+}
+
+.victim-button{
+    background: #ffffff;
+    border-radius: 20px;
+    width: 48%;
+    height: 6vh;
+    font-size: 17px;
+    margin-left: 16%;
+    margin-top: 12vh;
+}
+.victim-button:focus{
+    outline: none;
+}
+
+.right-arrow{
+    background-color: #999896;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 5%;
+    height: 7vh;
+    border-radius: 20px;
+    margin-top: 12vh;
+    position: absolute;
+    
+}
+
+.right-arrow:focus{
+    outline: none;
+}
+
+.imgflecha{
+    width: 2%;
+}
+
+#footer {
+    background-color: black;
+    text-align: center !important;
+    width: 100%;
+    height: 13vh;
+    position: absolute;
+    bottom: 0;
+    color: red;
+}
+
+#textfooter{
+    margin-top: 4vh;
+}
+
+#pxvivos{
+    margin-top: 3vh;
+}
+
+#pxmuertos{
+    margin-top: 3vh;
+}
+

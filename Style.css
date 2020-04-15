@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(97, 91, 91);
+}
+
+h1{
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#boton a{
+    color:white;
+}
